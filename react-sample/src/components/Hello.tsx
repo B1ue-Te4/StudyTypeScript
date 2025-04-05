@@ -6,9 +6,8 @@ const Hello = () => {
   const text = 'テキストてすと'
 
   return(
-    <div style='padding: 16px; background-color: grey;'>
-      <label for="name">名前</label> 
-        <input id="name" class="input-name" type="text">
+    <div>
+      <h1>{text}</h1>
     </div>
   )
 }
