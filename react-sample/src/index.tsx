@@ -4,8 +4,10 @@ import './index.css';
 // import App from './App';
 // import Hello from './components/Hello'
 // import Name from './components/Name'
-import Message from './components/Message'
-import Parent from './components/ContainerSample'
+// import Message from './components/Message'
+// import Parent from './components/ContainerSample'
+import Page from './components/ContextSample'
+import Counter from './components/UseStateSample'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -13,8 +15,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <Message />
-    <Parent />
+    <Counter />
   </React.StrictMode>
 );
 

@@ -1,4 +1,11 @@
-const Container = (props: { title: string; children: React.ReactElement }) => {
+import React, { JSX } from 'react'
+
+type ContainerProps = {
+  title: string
+  children: React.ReactNode
+}
+
+const Container = (props: ContainerProps): JSX.Element => {
   const { title, children } = props
 
   return (
