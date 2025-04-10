@@ -7,7 +7,8 @@ import './index.css';
 // import Message from './components/Message'
 // import Parent from './components/ContainerSample'
 import Page from './components/ContextSample'
-import Counter from './components/UseStateSample'
+import Counter1 from './components/UseStateSample'
+import Counter2 from './components/UseReducerSample'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -15,7 +16,8 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <Counter />
+    <Counter1 initialValue={0} />
+    <Counter2 initialValue={0} />
   </React.StrictMode>
 );
 
