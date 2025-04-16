@@ -9,15 +9,19 @@ import './index.css';
 // import Page from './components/ContextSample'
 // import Counter1 from './components/UseStateSample'
 // import Counter2 from './components/UseReducerSample'
-import { Parent } from './components/Parent' 
+// import { Parent } from './components/Parent' 
+// import { Parent } from './components/UseCallbackSample' 
+// import { UseMemoSample } from './components/UseMemoSample'
+import { UseStateSample } from './components/UseStateSample'
 import reportWebVitals from './reportWebVitals';
+
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <Parent />
+    <UseStateSample />
   </React.StrictMode>
 );
 
