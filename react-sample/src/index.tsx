@@ -12,7 +12,7 @@ import './index.css';
 // import { Parent } from './components/Parent' 
 // import { Parent } from './components/UseCallbackSample' 
 // import { UseMemoSample } from './components/UseMemoSample'
-import { UseStateSample } from './components/UseStateSample'
+import { Clock } from './components/Clock'
 import reportWebVitals from './reportWebVitals';
 
 
@@ -21,7 +21,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <UseStateSample />
+    <Clock />
   </React.StrictMode>
 );
 
