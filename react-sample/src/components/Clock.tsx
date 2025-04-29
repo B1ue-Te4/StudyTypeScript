@@ -6,7 +6,7 @@ const KEY_LOCALE = 'KEY_LOCALE'
 
 enum Locale {
   US = 'en-US',
-  JP = 'ja-SP',
+  JP = 'ja-JP',
 }
 
 const getLocaleFromString = (text: string) => {
